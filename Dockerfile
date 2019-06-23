@@ -1,6 +1,6 @@
-FROM alpine:edge
+FROM arm32v6/alpine:edge
 
-LABEL maintainer "Dean Camera <http://www.fourwalledcubicle.com>"
+LABEL maintainer "Jeffrey Neer <http://www.jeffreyneer.com>"
 
 RUN mkdir -p /conf && \
 	mkdir -p /conf-copy && \
